@@ -8,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 const EditCampaña = () => {
     // Estado para candidatos
     const [candidatos, setCandidatos] = useState([]);
-    const [selectedCandidato, setSelectedCandidato] = useState('');
     const [candidatosSeleccionados, setCandidatosSeleccionados] = useState([]); // Para almacenar los seleccionados
 
     // Estado para los estados
